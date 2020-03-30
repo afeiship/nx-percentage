@@ -11,7 +11,7 @@ gem 'nx-percentage', git: 'git@github.com:afeiship/nx-percentage.git'
 
 ## usage
 ```rb
-Nx::percentage(5, 100, { round: 2})
+Nx::percentage(5, 100)
 
 # 5%
 ```
