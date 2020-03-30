@@ -1,0 +1,24 @@
+{
+  "name": "nx-percentage",
+  "version": "1.0.0",
+  "description": "Percentage of total.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "clean": "rm -rf *.gem",
+    "build": "gem build *.gemspec",
+    "pubpush": "gem push *.gem",
+    "unpublish":"gem yank nx-http -v '0.1.0'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/nx-percentage.git"
+  },
+  "author": "afei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/nx-percentage/issues"
+  },
+  "homepage": "https://github.com/afeiship/nx-percentage#readme"
+}
